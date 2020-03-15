@@ -4,6 +4,7 @@ on:
   push:
     paths:
     - '**.md'
+    - .github/workflows/main.yml
 
 jobs:
   convert_md:  
@@ -18,7 +19,7 @@ jobs:
       with:
         MD_SRC: './export/patrick-harbison-resume.md'
         PDF_DST: './export/patrick-harbison-resume.pdf'
-        OPTS: ''
+        OPTS: '-V geometry:margin=1in'
         LINE_BREAK: '42'
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v1.6.1
