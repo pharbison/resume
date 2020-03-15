@@ -1,0 +1,19 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "A short overview of my work experiences.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pharbison/resume.git"
+  },
+  "keywords": [
+    "patrick harbison",
+    "resume"
+  ],
+  "author": "Patrick Harbison <pharbison125@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/pharbison/resume/issues"
+  },
+  "homepage": "https://github.com/pharbison/resume#readme",
+  "dependencies": {}
+}
