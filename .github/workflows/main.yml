@@ -19,7 +19,7 @@ jobs:
       with:
         MD_SRC: './export/patrick-harbison-resume.md'
         PDF_DST: './export/patrick-harbison-resume.pdf'
-        OPTS: '-V geometry:margin=1in'
+        OPTS: '-V geometry:left=1in,right=1.75in,top=1in,bottom=1in'
         LINE_BREAK: '42'
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v1.6.1
