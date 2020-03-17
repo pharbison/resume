@@ -1,6 +1,6 @@
-# Patrick Harbison &ndash; Systems Administrator
+# Patrick Harbison
 
-> [pharbison125@gmail.com](mailto:pharbison125@gmail.com) | [337.377.6607](tel:3373776607)
+> [pharbison125@gmail.com](mailto:pharbison125@gmail.com) | [337.377.6607](tel:3373776607) | [github.com/pharbison](https://github.com/pharbison)
 
 - 9+ years of experience as a Linux Systems Administrator
 - An additional 4+ years of personal experience with Linux Systems
