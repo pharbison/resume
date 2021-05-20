@@ -6,10 +6,6 @@ on:
     - '**.md'
     - .github/workflows/main.yml
 
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  COMMIT_MESSAGE: Add .pdf file.
-
 jobs:
   convert_md:  
     runs-on: ubuntu-latest
@@ -26,4 +22,6 @@ jobs:
         OPTS: '-V geometry:left=1in,right=1.8in,top=1in,bottom=1in -V mainfont=lmmono8-regular.otf --pdf-engine=xelatex'
         LINE_BREAK: '44'
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v1.6.1
+      uses: peter-evans/create-pull-request@v3
+      with: 
+        commit-message: Add .pdf file
