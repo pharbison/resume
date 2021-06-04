@@ -19,8 +19,8 @@ jobs:
       with:
         MD_SRC: './export/patrick-harbison-resume.md'
         PDF_DST: './export/patrick-harbison-resume.pdf'
-        OPTS: '-V geometry:left=1in,right=1.8in,top=1in,bottom=1in -V "mainfont:DejaVuSansMono.ttf" --pdf-engine=xelatex'
-        LINE_BREAK: '44'
+        OPTS: '--pdf-engine=xelatex'
+        LINE_BREAK: '49'
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with: 
