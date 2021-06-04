@@ -1,3 +1,8 @@
+---
+mainfont: Noto Sans Light
+geometry: left=1in,right=1.8in,top=1in,bottom=1in
+---
+
 # Patrick Harbison
 
 > [pharbison125@gmail.com](mailto:pharbison125@gmail.com) | [337.377.6607](tel:3373776607)
